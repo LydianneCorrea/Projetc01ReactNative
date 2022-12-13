@@ -1,23 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
-export default function App() {
+ 
+export default function AppForm() {
   return (
     <View style={styles.container}>
-      <Text>Apoio Materno </Text>
-      <Text>Criado por Lydianne Corrêa</Text>
-      <Text>testes</Text>
-      <Text>testes</Text>
-      
-      <StatusBar style="auto" />
+      <Text>Form!</Text>
+      <StatusBar style="light" />
     </View>
   );
 }
-
+ 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#D93600',
     alignItems: 'center',
     justifyContent: 'center',
   },
